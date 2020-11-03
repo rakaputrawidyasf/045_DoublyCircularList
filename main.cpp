@@ -12,12 +12,12 @@ using namespace std;
 #include "deklarasi_global.h"
 
 int main(int argc, const char * argv[]) {
-    cout << "==========PROGRAM DOUBLE-CIRCULAR-LIST==========" << endl;
     // DEKLARASI LOKAL
     DoubleCirclist DCL;
     int options;
 
     // ALGORITMA
+    cout << "==========PROGRAM DOUBLE-CIRCULAR-LIST==========" << endl;
     do {
         cout << "Menu:" << endl;
         cout << "1) Buat List baru" << endl;
