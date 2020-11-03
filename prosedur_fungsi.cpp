@@ -20,7 +20,7 @@ void createNewList(DoubleCirclist *DCL) {
     *DCL = NULL;
 }
 void deleteList(DoubleCirclist *DCL) {
-    // DEKLARASI GLOBAL
+    // DEKLARASI LOKAL
     DoubleCirclist Temp;
 
     // ALGORITMA
@@ -35,7 +35,7 @@ void deleteList(DoubleCirclist *DCL) {
     }
 }
 void insertFirst(DoubleCirclist *DCL, int DAT) {
-    // DEKLARASI GLOBAL
+    // DEKLARASI LOKAL
     DoubleCirclist New, Last;
 
     // ALGORITMA
@@ -54,7 +54,7 @@ void insertFirst(DoubleCirclist *DCL, int DAT) {
     *DCL = New;
 }
 void insertBefore(DoubleCirclist *DCL, int Search, int DAT) {
-    // DEKLARASI GLOBAL
+    // DEKLARASI LOKAL
     DoubleCirclist New, NextNode;
 
     // ALGORITMA
@@ -78,7 +78,7 @@ void insertBefore(DoubleCirclist *DCL, int Search, int DAT) {
     }
 }
 void insertAfter(DoubleCirclist *DCL, int Search, int DAT) {
-    // DEKLARASI GLOBAL
+    // DEKLARASI LOKAL
     DoubleCirclist New, PrevNode;
     
     // ALGORITMA
@@ -102,7 +102,7 @@ void insertAfter(DoubleCirclist *DCL, int Search, int DAT) {
     }
 }
 void insertLast(DoubleCirclist *DCL, int DAT) {
-    // DEKLARASI GLOBAL
+    // DEKLARASI LOKAL
     DoubleCirclist New, Last;
 
     // ALGORITMA
@@ -121,7 +121,7 @@ void insertLast(DoubleCirclist *DCL, int DAT) {
     }
 }
 void removeFirst(DoubleCirclist *DCL, int *DAT) {
-    // DEKLARASI GLOBAL
+    // DEKLARASI LOKAL
     DoubleCirclist First;
 
     // ALGORITMA
@@ -143,7 +143,7 @@ void removeFirst(DoubleCirclist *DCL, int *DAT) {
     }
 }
 void removeSelected(DoubleCirclist *DCL, int Search, int *DAT) {
-    // DEKLARASI GLOBAL
+    // DEKLARASI LOKAL
     DoubleCirclist Selected, PrevNode;
 
     // ALGORITMA
@@ -170,7 +170,7 @@ void removeSelected(DoubleCirclist *DCL, int Search, int *DAT) {
     }
 }
 void removeLast(DoubleCirclist *DCL, int *DAT) {
-    // DEKLARASI GLOBAL
+    // DEKLARASI LOKAL
     DoubleCirclist Last;
 
     // ALGORITMA
@@ -191,7 +191,7 @@ void removeLast(DoubleCirclist *DCL, int *DAT) {
     }
 }
 void printList(DoubleCirclist DCL) {
-    // DEKLARASI GLOBAL
+    // DEKLARASI LOKAL
     DoubleCirclist Traversal;
 
     // ALGORITMA
@@ -207,7 +207,7 @@ void printList(DoubleCirclist DCL) {
     }
 }
 void reversePrintList(DoubleCirclist DCL) {
-    // DEKLARASI GLOBAL
+    // DEKLARASI LOKAL
     DoubleCirclist Traversal;
 
     // ALGORITMA
@@ -223,7 +223,7 @@ void reversePrintList(DoubleCirclist DCL) {
     }
 }
 void operationMenu(DoubleCirclist *DCL) {
-    // DEKLARASI GLOBAL
+    // DEKLARASI LOKAL
     int DAT, Search;
     int options;
 
